@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Moj online CV</title>
+<style>
+h1 {text-align: center;}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body style="background-color:Azure;">
+<h1 style="font-family:Tahoma">Online CV</h1>
+<hr>
+<div class="row">
+  <div class="column">
+	<h2 style="font-family:Garamond">Osnovne informacije</h2>
+    <img src="https://scontent-frx5-1.xx.fbcdn.net/v/t1.6435-9/68974249_2472053506163875_1645145226542579712_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ubfLgP2wMqwAX8WGUJC&_nc_ht=scontent-frx5-1.xx&oh=00_AT-sDPo1LVlPpOd4JD9IcxgUurBjOz5TNaHC_83-uB53aw&oe=6245580E" alt="Dino Deviæ" style="float:left;width:150px;height:150px;">
+	<p style="font-family:Georgia">&nbsp;&nbsp;&nbsp;<b>Ime i prezime:</b> Dino Deviæ <br> <br>&nbsp;&nbsp;&nbsp;<b>Mjesto stanovanja:</b> Koprivnièka 11, Sokolovac <br> <br>&nbsp;&nbsp;&nbsp;<b>Datum roðenja:</b> 26.8.1998. <br> <br>&nbsp;&nbsp;&nbsp;<b>Mail:</b> ddevic@foi.hr</p>
+  </div>
+  <div class="column">
+    <h2 style="font-family:Garamond" text-align="left;">Tehnologije</h2>
+	<img src="https://isd-soft.com/wp-content/uploads/2018/12/csharp-and-java.jpg" alt="C# and Java" style="float:left;width:250px;height:150px;"
+    <p style="font-family:Georgia">&nbsp;&nbsp;<b>Programski jezici:</b> C#, Java<br> <br>&nbsp;&nbsp;<b>Ureðivanje teksta i obrada podataka:</b> WORD, PPT i Excel</p>
+  </div>
+</div>
+<br> <br> <hr>
+<h2 style="font-family:Garamond">O meni</h2>
+<p style="font-family:Georgia">Student sam završne godine diplomskog studija na Fakultetu organizacije i informatike u Varaždinu.
+ Kroz brojne projekte tijekom studiranja nauèio sam dobro funkcionirati u timu te sam stekao odreðenu razinu marljivosti, kreativnosti i odgovornosti.
+ Spreman sam uèiti nove tehnologije i napredovati u programiranju. Otvoren za sve moguænosti nastavka rada nakon završetka studiranja.
+ </p>
+ <hr> 
+</body>
+</html>
